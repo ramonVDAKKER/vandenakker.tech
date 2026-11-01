@@ -1,0 +1,13 @@
+/* Animated service visuals (assets/services.js). Same look as the hero terminal. */
+.viz {
+  margin: 0 0 6px; background: #0B1F25; border: 1px solid #1E3A42; border-radius: 12px; overflow: hidden;
+  box-shadow: 0 12px 28px rgba(8, 38, 46, .14);
+}
+.viz-bar { display: flex; align-items: center; gap: 6px; padding: 8px 12px; background: #0E2830; border-bottom: 1px solid #1E3A42; }
+.viz-bar i { width: 9px; height: 9px; border-radius: 50%; background: #2B4A52; display: block; }
+.viz-bar span {
+  margin-left: 8px; color: #7E9AA2; font: 11.5px/1.2 ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.viz canvas { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; }
+.viz-caption { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
